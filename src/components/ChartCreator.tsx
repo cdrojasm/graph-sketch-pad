@@ -45,6 +45,16 @@ const ChartCreator = () => {
               <ChartConfigTabs />
             </CardContent>
           </Card>
+          
+          {/* Placeholder for future features */}
+          <Card className="border-dashed border-2 border-gray-300">
+            <CardContent className="pt-6">
+              <h3 className="text-lg font-medium mb-4">Data Transformations</h3>
+              <div className="h-40 flex items-center justify-center text-gray-400">
+                <p>Coming soon: Data filtering and transformation options</p>
+              </div>
+            </CardContent>
+          </Card>
         </div>
 
         <div className="lg:col-span-2 space-y-6">
@@ -59,6 +69,16 @@ const ChartCreator = () => {
             <CardContent className="pt-6">
               <h3 className="text-lg font-medium mb-4">Data Preview</h3>
               <DataPreviewTable />
+            </CardContent>
+          </Card>
+          
+          {/* Placeholder for future features */}
+          <Card className="border-dashed border-2 border-gray-300">
+            <CardContent className="pt-6">
+              <h3 className="text-lg font-medium mb-4">Chart Insights</h3>
+              <div className="h-40 flex items-center justify-center text-gray-400">
+                <p>Coming soon: AI-powered insights about your chart data</p>
+              </div>
             </CardContent>
           </Card>
         </div>

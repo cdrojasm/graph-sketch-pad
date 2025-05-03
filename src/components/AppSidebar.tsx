@@ -34,7 +34,7 @@ const navigation = [
 
 const AppSidebar = () => {
   return (
-    <Sidebar defaultCollapsed={false}>
+    <Sidebar>
       <SidebarHeader className="h-14 flex items-center px-4">
         <div className="flex items-center space-x-2">
           <ChartBar className="h-6 w-6 text-chart-purple" />

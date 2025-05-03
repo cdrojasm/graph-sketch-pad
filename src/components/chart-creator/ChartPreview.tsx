@@ -15,6 +15,7 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
+  Cell,
 } from "recharts";
 
 const data = [
@@ -108,11 +109,6 @@ const ChartPreview = ({ chartType }: { chartType: string }) => {
       </ResponsiveContainer>
     </div>
   );
-};
-
-// Needed for the pie chart
-const Cell = ({ fill, children }: { fill: string, children?: React.ReactNode }) => {
-  return <cell fill={fill}>{children}</cell>;
 };
 
 export default ChartPreview;

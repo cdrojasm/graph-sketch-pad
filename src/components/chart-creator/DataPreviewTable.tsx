@@ -11,8 +11,6 @@ const sampleData = [
   { id: 4, month: "February", product: "Product B", revenue: 42800, cost: 18600, profit: 24200 },
   { id: 5, month: "March", product: "Product A", revenue: 45200, cost: 19600, profit: 25600 },
   { id: 6, month: "March", product: "Product B", revenue: 37800, cost: 16400, profit: 21400 },
-  { id: 7, month: "April", product: "Product A", revenue: 44600, cost: 19300, profit: 25300 },
-  { id: 8, month: "April", product: "Product B", revenue: 40200, cost: 17400, profit: 22800 },
 ];
 
 const DataPreviewTable = () => {
@@ -57,7 +55,7 @@ const DataPreviewTable = () => {
       </div>
       
       <div className="text-sm text-gray-500">
-        Showing 8 of 24 rows. <a href="#" className="text-chart-purple hover:underline">Show more</a>
+        Showing 6 of 24 rows. <a href="#" className="text-chart-purple hover:underline">Show more</a>
       </div>
     </div>
   );
